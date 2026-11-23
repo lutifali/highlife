@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="High Life Home Healthcare - خدمات الرعاية الصحية المنزلية في الكويت">
+    <title>High Life | الرعاية الصحية المنزلية في الكويت</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="top-strip">
+        <div class="container d-flex justify-content-between align-items-center">
+            <span><i class="fa-regular fa-clock me-1"></i> متاح 24 ساعة طوال أيام الأسبوع</span>
+            <div class="top-actions">
+                <a href="tel:+96599347516"><i class="fa-solid fa-phone me-1"></i> اتصل بنا</a>
+                <button class="lang-switch" id="langSwitch" type="button">EN</button>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand brand" href="#">
+                    <span class="brand-mark"><img src="assets/images/hands-care.png" alt=""></span>
+                    <span><strong>High Life</strong><small>الرعاية الصحية المنزلية</small></span>
+                </a>
+                <button class="header-lang-switch ms-auto" id="headerLangSwitch" type="button" aria-label="Switch language">EN</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="القائمة">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#home">الرئيسية</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">من نحن</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">الخدمات</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#process">كيف يعمل</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">اتصل بنا</a></li>
+                    </ul>
+                    <div class="header-actions d-flex align-items-center gap-2">
+                        <a class="btn appointment-btn" href="#appointment">احجز موعدًا <i class="fa-solid fa-calendar-check ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="row align-items-center min-vh-hero">
+                    <div class="col-lg-6 hero-copy">
+                        <div class="eyebrow"><span></span> عيادتك الصحية في بيتك</div>
+                        <h1>صحتك تستحق<br><em>رعاية أقرب إليك</em></h1>
+                        <p class="hero-text">فريق من أطباء وتخصصات الرعاية الماهرة يقدم لك رعاية صحية موثوقة ومخصصة في الكويت، في راحة منزلك وبوقت يناسبك.</p>
+                        <div class="hero-buttons">
+                            <a class="btn btn-primary-custom" href="#appointment">اطلب زيارة منزلية <i class="fa-solid fa-arrow-left ms-2"></i></a>
+                            <a class="btn discover-btn" href="#services">اكتشف خدماتنا <i class="fa-solid fa-chevron-left ms-2"></i></a>
+                        </div>
+                        <div class="hero-trust">
+                            <div class="avatar-stack">
+                                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=80&q=80" alt="">
+                                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=80&q=80" alt="">
+                                <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=80&q=80" alt="">
+                            </div>
+                            <div><strong>أكثر من 24 طبيبًا</strong><small><i class="fa-solid fa-star"></i> موثوقون على مدار الساعة</small></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 hero-visual">
+                        <div class="hero-image-wrap">
+                            <div class="image-accent"></div>
+                            <img class="hero-image" src="assets/images/hero-care.jpg" alt="رعاية صحية منزلية لكبار السن في الكويت">
+                            <div class="status-card status-card-main">
+                                <span class="status-icon"><i class="fa-solid fa-shield-heart"></i></span>
+                                <div><strong>رعاية من القلب</strong><small>مدعومة بالاختصاص</small></div>
+                            </div>
+                            <div class="status-card status-card-heart">
+                                <i class="fa-solid fa-heart-pulse"></i>
+                                <div><strong>72 BPM</strong><small>نبض طبيعي</small></div>
+                            </div>
+                            <div class="plus p1">+</div><div class="plus p2">+</div><div class="plus p3">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <article class="feature-card">
+                            <span class="feature-icon"><i class="fa-solid fa-user-nurse"></i></span>
+                            <div><h3>رعاية أساسية احترافية</h3><p>فريقًا مؤهلًا يقدم الرعاية بأعلى المعايير.</p></div>
+                            <i class="fa-solid fa-arrow-left feature-arrow"></i>
+                        </article>
+                    </div>
+                    <div class="col-md-4">
+                        <article class="feature-card">
+                            <span class="feature-icon"><i class="fa-solid fa-house-medical"></i></span>
+                            <div><h3>راحة في منزلك</h3><p>خدمات طبية مرنة دون الحاجة إلى الانتظار.</p></div>
+                            <i class="fa-solid fa-arrow-left feature-arrow"></i>
+                        </article>
+                    </div>
+                    <div class="col-md-4">
+                        <article class="feature-card">
+                            <span class="feature-icon"><i class="fa-solid fa-truck-medical"></i></span>
+                            <div><h3>استجابة أسرع لعناية طبية</h3><p>نصل إليك سريعًا وفي الوقت المناسب.</p></div>
+                            <i class="fa-solid fa-arrow-left feature-arrow"></i>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="about-image">
+                            <img src="assets/images/elder-support.jpg" alt="رعاية كبار السن والمرضى في المنزل">
+                            <div class="experience-badge"><strong>10+</strong><span>سنوات من الخبرة</span></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 about-copy">
+                        <div class="section-label"><i class="fa-solid fa-circle-plus"></i> من نحن</div>
+                        <h2>لأن البيت هو المكان<br><em>الأفضل للتعافي</em></h2>
+                        <p>نقدم رعاية صحية منزلية شاملة، مصممة بعناية لتمنحك راحة وأمانًا من دون التنقل أو الانتظار. صحتك وراحتك هي أولويتنا.</p>
+                        <div class="about-checks">
+                            <div><i class="fa-solid fa-check"></i><span>أطباء وممرضون معتمدون</span></div>
+                            <div><i class="fa-solid fa-check"></i><span>خطط رعاية مخصصة لكل مريض</span></div>
+                            <div><i class="fa-solid fa-check"></i><span>خدمة متاحة في جميع مناطق الكويت</span></div>
+                        </div>
+                        <a class="btn btn-primary-custom" href="#appointment">اعرف المزيد <i class="fa-solid fa-arrow-left ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <div class="section-label"><i class="fa-solid fa-circle-plus"></i> خدماتنا</div>
+                    <h2>رعاية صحية متكاملة<br><em>في مكانك</em></h2>
+                    <p>اختر الخدمة التي تناسب احتياجاتك، وسيتواصل معك فريقنا للتأكيد.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <article class="service-card">
+                            <div class="service-img"><img src="assets/images/nurse.jpg" alt="زيارة طبيب منزلية في الكويت"><span><i class="fa-solid fa-stethoscope"></i></span></div>
+                            <div class="service-body"><h3>زيارات طبيب منزلي</h3><p>فحص وتشخيص وعلاج على يد طبيب مختص.</p><a href="#appointment">احجز الآن <i class="fa-solid fa-arrow-left"></i></a></div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <article class="service-card">
+                            <div class="service-img"><img src="assets/images/home-nursing.jpg" alt="تمريض منزلي لكبار السن"><span><i class="fa-solid fa-user-nurse"></i></span></div>
+                            <div class="service-body"><h3>التمريض المنزلي</h3><p>رعاية تمريضية مؤهلة على مدار اليوم.</p><a href="#appointment">احجز الآن <i class="fa-solid fa-arrow-left"></i></a></div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <article class="service-card">
+                            <div class="service-img"><img src="assets/images/lab-care.jpg" alt="فحوصات صحية منزلية"><span><i class="fa-solid fa-dna"></i></span></div>
+                            <div class="service-body"><h3>الفحوصات المختبرية</h3><p>عينات وإشراف مختبري دون مغادرة البيت.</p><a href="#appointment">احجز الآن <i class="fa-solid fa-arrow-left"></i></a></div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <article class="service-card">
+                            <div class="service-img"><img src="assets/images/caregiver.jpg" alt="علاج طبيعي ورعاية حركة لكبار السن"><span><i class="fa-solid fa-person-walking-arrow-right"></i></span></div>
+                            <div class="service-body"><h3>العلاج الطبيعي</h3><p>جلسات تأهيل وبرامج علاجية شخصية.</p><a href="#appointment">احجز الآن <i class="fa-solid fa-arrow-left"></i></a></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="process-section" id="process">
+            <div class="container">
+                <div class="section-heading">
+                    <div class="section-label"><i class="fa-solid fa-circle-plus"></i> كيف يعمل</div>
+                    <h2>ثلاث خطوات بسيطة<br><em>للحصول على الرعاية</em></h2>
+                </div>
+                <div class="process-grid">
+                    <div class="process-step"><span>01</span><div class="process-icon"><i class="fa-solid fa-calendar-plus"></i></div><h3>احجز موعدًا</h3><p>اختر الخدمة والوقت المناسب.</p></div>
+                    <div class="process-line"></div>
+                    <div class="process-step"><span>02</span><div class="process-icon"><i class="fa-solid fa-phone-volume"></i></div><h3>تأكيد الزيارة</h3><p>يتواصل معك فريقنا للتأكيد.</p></div>
+                    <div class="process-line"></div>
+                    <div class="process-step"><span>03</span><div class="process-icon"><i class="fa-solid fa-house-circle-check"></i></div><h3>تصل الرعاية إليك</h3><p>يصل المختصون إليك في الوقت المحدد.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="appointment-section" id="appointment">
+            <div class="container">
+                <div class="appointment-wrap">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 appointment-copy">
+                            <div class="section-label light"><i class="fa-solid fa-circle-plus"></i> احجز موعدًا</div>
+                            <h2>نحن هنا من أجلك<br>وعائلتك</h2>
+                            <p>أرسل طلب الزيارة وسيتصل بك فريقنا لتأكيد البيانات والترتيب المناسب.</p>
+                            <ul>
+                                <li><i class="fa-solid fa-clock"></i> متاحون 24 ساعة</li>
+                                <li><i class="fa-solid fa-location-dot"></i> جميع مناطق الكويت</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-7">
+                            <form class="booking-form" id="bookingForm">
+                                <div class="row g-3">
+                                    <div class="col-md-6"><input class="form-control" type="text" name="name" placeholder="الاسم الكامل" required></div>
+                                    <div class="col-md-6"><input class="form-control" type="tel" name="phone" placeholder="رقم الهاتف" required></div>
+                                    <div class="col-md-6"><select class="form-select" name="service" required><option value="">اختر الخدمة</option><option>زيارة طبيب منزلي</option><option>التمريض المنزلي</option><option>الفحوصات المختبرية</option><option>العلاج الطبيعي</option></select></div>
+                                    <div class="col-md-6"><input class="form-control" type="date" name="date" required></div>
+                                    <div class="col-12"><textarea class="form-control" name="message" rows="3" placeholder="ملاحظات أو تفاصيل إضافية"></textarea></div>
+                                    <div class="col-12"><button class="btn btn-primary-custom w-100" type="submit">إرسال الطلب <i class="fa-solid fa-arrow-left ms-2"></i></button></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4"><div class="section-label"><i class="fa-solid fa-circle-plus"></i> آراء العملاء</div><h2>ماذا يقولون عن<br><em>رعايتنا؟</em></h2></div>
+                    <div class="col-lg-8">
+                        <div class="testimonial-card">
+                            <div class="quote-mark">“</div>
+                            <p>الخدمة كانت ممتازة وسريعة. حضر الطبيب في الوقت المحدد وشرح الحالة بهدوء واهتمام كبير، وهذا ما جعلنا نشعر بالأمان.</p>
+                            <div class="testimonial-person"><img src="assets/images/client.jpg" alt="عميلة رعاية منزلية في الكويت"><div><strong>فاطمة أحمد</strong><small>عميلة في الكويت</small></div><div class="stars">★★★★★</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <a class="navbar-brand brand footer-brand" href="#"><span class="brand-mark"><img src="assets/images/hands-care.png" alt=""></span><span><strong>High Life</strong><small>الرعاية الصحية المنزلية</small></span></a>
+                    <p>نقدم رعاية صحية موثوقة ومخصصة في منزلك، بجودة عالية واحترافية عالية.</p>
+                </div>
+                <div class="col-6 col-lg-2"><h3>روابط سريعة</h3><a href="#home">الرئيسية</a><a href="#about">من نحن</a><a href="#services">الخدمات</a><a href="#process">كيف يعمل</a></div>
+                <div class="col-6 col-lg-3"><h3>الخدمات</h3><a href="#services">زيارة طبيب منزلي</a><a href="#services">التمريض المنزلي</a><a href="#services">الفحوصات المختبرية</a><a href="#services">العلاج الطبيعي</a></div>
+                <div class="col-lg-3"><h3>تواصل معنا</h3><a href="tel:+96599347516"><i class="fa-solid fa-phone"></i> +965 9934 7516</a><a href="mailto:info@highlifekw.com"><i class="fa-solid fa-envelope"></i> info@highlifekw.com</a><a href="#"><i class="fa-solid fa-location-dot"></i> الكويت</a></div>
+            </div>
+            <div class="footer-bottom"><span>© <span id="currentYear"></span> High Life. جميع الحقوق محفوظة.</span><div><a href="#">سياسة الخصوصية</a><a href="#">الشروط والأحكام</a></div></div>
+        </div>
+    </footer>
+
+    <a class="whatsapp-float" href="https://wa.me/96599347516" target="_blank" rel="noopener" aria-label="واتساب"><i class="fa-brands fa-whatsapp"></i><span>واتساب</span></a>
+
+    <div class="toast-container position-fixed bottom-0 start-0 p-3">
+        <div id="successToast" class="toast align-items-center text-white border-0" role="alert"><div class="d-flex"><div class="toast-body">تم إرسال طلبك بنجاح، سنتواصل معك قريبًا.</div><button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button></div></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
